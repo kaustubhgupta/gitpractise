@@ -14,5 +14,3 @@ Here I practice various GitHub features which I want to learn and implement in v
 - Git Packages
 - Git Student Developer Pack
 
-
-# It also has Personal acces tokens!
