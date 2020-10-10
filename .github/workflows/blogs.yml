@@ -13,4 +13,5 @@ jobs:
             feed_list: "https://medium.com/feed/@kaustubhgupta1828, https://www.kaustubhgupta.xyz/blog-feed.xml"
             max_post_count: 7
             readme_path: text.txt
+            template: "[$title]($url) $newline"
        
