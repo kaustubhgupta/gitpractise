@@ -2,21 +2,8 @@ name: Latest blog post workflow
 on:
   workflow_dispatch:
 
-jobs:
+jobs:     
   job_1:
-    name: Create the file
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo -n -e "<!-- BLOG-POST-LIST:START --> <!-- BLOG-POST-LIST:END -->" > text.txt
-      - uses: test-room-7/action-update-file@v1
-        with:
-          file-path: |
-            text.txt
-          commit-msg: txt file added
-          github-token: ${{ secrets.TOKEN }}
-          
-  job_2:
-    needs: [job_1]
     name: update-readme-with-blog
     runs-on: ubuntu-latest
     steps:
