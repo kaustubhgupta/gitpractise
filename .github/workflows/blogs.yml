@@ -13,7 +13,7 @@ jobs:
             feed_list: "https://medium.com/feed/@kaustubhgupta1828, https://www.kaustubhgupta.xyz/blog-feed.xml"
             max_post_count: 7
             readme_path: text.txt
-            template: "$newline <h2 class='h2-repo'><a class='a-blue' href=$url>$title</a></h2>$newline <br>"
+            template: "$newline <h2 class='h2-blog'><a class='a-lightblue' href=$url>$title</a></h2>$newline <br>"
                     
 
        
