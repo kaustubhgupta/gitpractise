@@ -1,15 +1,15 @@
 <!-- BLOG-POST-LIST:START -->
-[How Pandemic Has Affected College Scores: Analysis On Real Dataset](https://towardsdatascience.com/how-pandemic-has-affected-college-scores-analysis-on-real-dataset-e6cea8c469b1?source=rss-603da2b47f57------2)
+ <h2 class='h2-repo'><a class='a-blue' href=https://towardsdatascience.com/how-pandemic-has-affected-college-scores-analysis-on-real-dataset-e6cea8c469b1?source=rss-603da2b47f57------2>How Pandemic Has Affected College Scores: Analysis On Real Dataset</a></h2>
  <br>
-[The Untold Stories](https://www.kaustubhgupta.xyz/post/the-untold-stories)
+ <h2 class='h2-repo'><a class='a-blue' href=https://www.kaustubhgupta.xyz/post/the-untold-stories>The Untold Stories</a></h2>
  <br>
-[Building Android Apps With Python: Part -3](https://towardsdatascience.com/building-android-apps-with-python-part-3-89a455ee7f7c?source=rss-603da2b47f57------2)
+ <h2 class='h2-repo'><a class='a-blue' href=https://towardsdatascience.com/building-android-apps-with-python-part-3-89a455ee7f7c?source=rss-603da2b47f57------2>Building Android Apps With Python: Part -3</a></h2>
  <br>
-[Building Android Apps With Python: Part -2](https://medium.com/swlh/building-android-apps-with-python-part-2-1d8e78ef9166?source=rss-603da2b47f57------2)
+ <h2 class='h2-repo'><a class='a-blue' href=https://medium.com/swlh/building-android-apps-with-python-part-2-1d8e78ef9166?source=rss-603da2b47f57------2>Building Android Apps With Python: Part -2</a></h2>
  <br>
-[Building Android Apps With Python: Part -1](https://towardsdatascience.com/building-android-apps-with-python-part-1-603820bebde8?source=rss-603da2b47f57------2)
+ <h2 class='h2-repo'><a class='a-blue' href=https://towardsdatascience.com/building-android-apps-with-python-part-1-603820bebde8?source=rss-603da2b47f57------2>Building Android Apps With Python: Part -1</a></h2>
  <br>
-[What Happens In a Industrial Visit?](https://www.kaustubhgupta.xyz/post/what-happens-in-a-industrial-visit)
+ <h2 class='h2-repo'><a class='a-blue' href=https://www.kaustubhgupta.xyz/post/what-happens-in-a-industrial-visit>What Happens In a Industrial Visit?</a></h2>
  <br>
-[Analyzing #justiceforcarry Using Twitter API](https://medium.com/@kaustubhgupta1828/analyzing-justiceforcarry-using-twitter-api-ee98d669509b?source=rss-603da2b47f57------2)
+ <h2 class='h2-repo'><a class='a-blue' href=https://medium.com/@kaustubhgupta1828/analyzing-justiceforcarry-using-twitter-api-ee98d669509b?source=rss-603da2b47f57------2>Analyzing #justiceforcarry Using Twitter API</a></h2>
  <br><!-- BLOG-POST-LIST:END -->
