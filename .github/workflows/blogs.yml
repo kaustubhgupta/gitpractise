@@ -1,19 +1,24 @@
-name: Latest blog post workflow
+name: Latest portfolio
 on:
   workflow_dispatch:
 
 jobs:     
   job_1:
-    name: update-readme-with-blog
+    name: update-index-with-project
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
-        - uses: gautamkrishnar/blog-post-workflow@master
+        - uses: kaustubhgupta/PortfolioFy@v1.0
           with:
-            feed_list: "https://medium.com/feed/@kaustubhgupta1828, https://www.kaustubhgupta.xyz/blog-feed.xml"
-            max_post_count: 7
-            readme_path: text.txt
-            template: "$newline <h2 class='h2-blog'><a class='a-lightblue' href=$url>$title</a></h2>$newline <br>"
+            gh_token: ${{ secrets.TOKEN }}
+  
+        - uses: test-room-7/action-update-file@v1
+          with:
+            file-path: |
+              index.html
+            commit-msg: index file added
+            github-token: ${{ secrets.TOKEN }}
+
                     
 
-       
+
