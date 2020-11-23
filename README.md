@@ -14,3 +14,6 @@ Here I practice various GitHub features which I want to learn and implement in v
 - Git Packages
 - Git Student Developer Pack
 
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
