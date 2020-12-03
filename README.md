@@ -7,13 +7,10 @@ Here I practice various GitHub features which I want to learn and implement in v
 - Git deployment with heroku (best for quickly releasing public version)
 - Git issues (gives update about what to do/fix next)
 - Git pull requests (merge changes into branch)
+- Git Actions
 
 ## Features I want to try next:
-- Git Actions
+
 - Git Projects (fully exploring it)
 - Git Packages
 - Git Student Developer Pack
-
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
-
