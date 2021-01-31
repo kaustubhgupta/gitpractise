@@ -18,4 +18,4 @@ jobs:
           file-path: |
             index.html
           commit-msg: index file added
-          github-token: ${{ secrets.TOKEN }
+          github-token: ${{ secrets.TOKEN }}
