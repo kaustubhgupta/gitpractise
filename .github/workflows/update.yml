@@ -11,7 +11,7 @@ jobs:
       - uses: kaustubhgupta/PortfolioFy@v2.3.1 # If any new version is released, kindly specify that or you can directly specify @main to avoid version confusion
         with:
           gh_token: ${{ secrets.TOKEN }} # Create a secret for access token and modify the name as you wish
-          social_links: False
+          theme: 2
 
       - uses: test-room-7/action-update-file@v1
         with:
