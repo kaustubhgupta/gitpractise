@@ -71,7 +71,7 @@ for project, project_detail in project_data_sorted.items():
 
 newContent = ' '.join(newContent)
 rewrittenReadme = rewriteContents(readme, newContent)
-if newContent != readme:
+if rewrittenReadme != readme:
     readmeRepo.update_file(contents.path, "committing changes",
                         rewrittenReadme, contents.sha)
 else:
