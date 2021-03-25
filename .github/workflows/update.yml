@@ -1,21 +1,19 @@
-name: Latest portfolio
+name: Build README
 on:
   workflow_dispatch:
 
 jobs:
-  job_1:
-    name: update-index-with-project
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: kaustubhgupta/PortfolioFy@v2.3.1 # If any new version is released, kindly specify that or you can directly specify @main to avoid version confusion
-        with:
-          gh_token: ${{ secrets.TOKEN }} # Create a secret for access token and modify the name as you wish
-          theme: 2
-
-      - uses: test-room-7/action-update-file@v1
-        with:
-          file-path: |
-            index.html
-          commit-msg: index file added
-          github-token: ${{ secrets.TOKEN }}
+    - name: Check out repo
+      uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: python -m pip install PyGithub  
+    - name: Update Readme
+      run: |-
+        python test.py ${{ secrets.TOKEN }} README.md
