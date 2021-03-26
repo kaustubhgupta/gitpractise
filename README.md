@@ -9,6 +9,9 @@ Here I practice various GitHub features which I want to learn and implement in v
 - Git pull requests (merge changes into branch)
 - Git Actions
 
+<!-- PROJECTS START -->
+<!-- PROJECTS END -->
+
 
 ## Features I want to try next:
 
