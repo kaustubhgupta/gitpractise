@@ -1,0 +1,13 @@
+name: Latest portfolio
+on:
+  workflow_dispatch:
+
+jobs:     
+  update-portfolio:
+    name: update-index
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - uses: kaustubhgupta/PortfolioFy@dev
+          with:
+            gh_token: ${{ secrets.TOKEN }}
