@@ -1,0 +1,19 @@
+name: Latest portfolio
+on:
+  workflow_dispatch:
+
+jobs:     
+  job_1:
+    name: update-index-with-project
+    runs-on: ubuntu-latest
+    steps:
+        - uses: actions/checkout@v2
+        - uses: kaustubhgupta/PortfolioFy@test
+          with:
+            gh_token: ${{ secrets.TOKEN }}
+            stats_choice: 2
+            blogs: True
+            theme: 2
+            hackathons: True
+            social_links: "https://www.linkedin.com/in/kaustubh-gupta/, https://twitter.com/Kaustubh1828, https://medium.com/@kaustubhgupta1828"
+            allow_footer: False
