@@ -8,12 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
-        - uses: kaustubhgupta/PortfolioFy@test
+        - uses: kaustubhgupta/PortfolioFy@v3.0
           with:
-            gh_token: ${{ secrets.TOKEN }}
-            stats_choice: 2
-            blogs: True
-            theme: 2
-            hackathons: True
-            social_links: "https://www.linkedin.com/in/kaustubh-gupta/ https://twitter.com/Kaustubh1828 https://medium.com/@kaustubhgupta1828"
-            allow_footer: False
+            gh_token: ${{ secrets.TOKEN })
