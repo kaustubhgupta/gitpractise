@@ -10,4 +10,4 @@ jobs:
         - uses: actions/checkout@v2
         - uses: kaustubhgupta/PortfolioFy@v3.0
           with:
-            gh_token: ${{ secrets.TOKEN })
+            gh_token: ${{ secrets.TOKEN }}
