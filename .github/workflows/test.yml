@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - uses: actions/checkout@v2
-        - uses: kaustubhgupta/PortfolioFy@v3.0
+        - uses: kaustubhgupta/PortfolioFy@test
           with:
             gh_token: ${{ secrets.TOKEN }}
